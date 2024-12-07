@@ -1,0 +1,13 @@
+# Django and REST framework
+Django>=4.0
+djangorestframework>=3.14.0
+
+# CORS handling (for cross-origin requests)
+django-cors-headers>=3.14.0
+
+# Authentication (optional, e.g., for JWT support)
+djangorestframework-simplejwt>=5.2.2
+
+# Additional tools (optional)
+# For environment variable management:
+python-decouple>=3.8
