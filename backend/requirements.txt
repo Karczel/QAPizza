@@ -5,9 +5,16 @@ djangorestframework>=3.14.0
 # CORS handling (for cross-origin requests)
 django-cors-headers>=3.14.0
 
-# Authentication (optional, e.g., for JWT support)
+# Authentication (JWT support)
 djangorestframework-simplejwt>=5.2.2
+PyJWT
 
 # Additional tools (optional)
 # For environment variable management:
 python-decouple>=3.8
+
+asgiref
+pytz
+sqlparse
+psycopg2-binary
+python-dotenv
